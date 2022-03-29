@@ -27,7 +27,7 @@ class Program
 
         DataSet result = excelReader.AsDataSet();
 
-        excelReader.IsFirstRowAsColumnNames = false;
+        // excelReader.IsFirstRowAsColumnNames = false;
 
         DataTable dt = result.Tables[0];
         Console.WriteLine(result.Tables[0].Rows.Count);
